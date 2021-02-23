@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Котейка</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <a href="/" class="logo"><img src="img/logo.svg" alt="Логотип сайта"></a>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="/" class="header-nav-li">Почему мы?</a></li>
+          <li><a href="/" class="header-nav-li">Номера</a></li>
+          <li><a href="/" class="header-nav-li">Отзывы</a></li>
+          <li><a href="/" class="header-nav-li">Как нас найти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section-banner">
+    <div class="container">
+      <div class="banner-city">Санкт-Петербург</div>
+      <h1>Котейка</h1>
+      <p class="h1-p">Уютная гостиница для котов и кошек</p>
+      <a href="catalog.html" class="button">Забронировать</a>
+      <img src="img/photo-promo-1.jpg">
+    </div>
+  </section>
+  <section class="section-advantages">
+    <div class="container">
+      <h2>Почему мы?</h2>
+      <article class="advantage">
+        <img src="img/thermometer.svg">
+        <h3>Комфортная температура</h3>
+        <p class="advantage-p">Во всех номерах поддерживается комфортная температура в пределах 23 - 25 градусов. В каждом номере можно дополнительно отрегулировать температуру.</p>
+      </article>
+      <article class="advantage">
+        <img src="img/video-monitoring.svg">
+        <h3>Видеонаблюдение</h3>
+        <p class="advantage-p">Мы предоставляем доступ в нашу систему. Вы сможете следить за своим питомцем со своего смартфона или компьютера.</p>
+      </article>
+      <article class="advantage">
+        <img src="img/taxi.svg">
+        <h3>Услуги Зоотакси</h3>
+        <p class="advantage-p">Мы приедем за вашим питомцем в любой район Санкт-Петербурга.</p>
+      </article>
+      <article class="advantage">
+        <img src="img/food.svg">
+        <h3>Сбалансированное питание</h3>
+        <p class="advantage-p">Вы можете привезти свой корм или доверить рацион своего питомца нашим профессионалам.</p>
+      </article>
+      <article class="advantage">
+        <img src="img/cat.svg">
+        <h3>Ежедневные прогулки</h3>
+        <p class="advantage-p">По вашему желанию мы выгуливаем вашего питомца два раза в день на специализированной закрытой территории.</p>
+      </article>
+      <article class="advantage">
+        <img src="img/hands.svg">
+        <h3>Лучшие ветеринары</h3>
+        <p class="advantage-p">В гостинице 24 часа дежурит ветеринарный врач, который окажет любую помощь в случае необходимости.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-form">
+    <div class="container">
+      <h2>Номера</h2>
+      <img src="img/photo-order-1.jpg">
+      <h3>Эконом плюс</h3>
+      <ul>
+        <li>Площадь - 0,90 м<sup>2</sup></li>
+        <li>Размеры (ШхГхВ) — 90х100х180 см</li>
+        <li>Цена за сутки: 200₽</li>
+      </ul>
+      <form id="reservation-form" action="#" method="post">
+        <div>
+          <input placeholder="Ваше имя" type="text">
+          <input placeholder="Имя Питомца" type="text">
+          <input placeholder="Телефон" type="tel">
+          <input placeholder="E-mail" type="email">
+          <div class="dates">
+            <div class="date-element">
+              <label>Дата заезда с</label>
+              <input type="date">
+            </div>
+            <div class="date-element">
+              <label>по</label>
+              <input type="date">
+              <button type="submit">Отправить заявку</button>
+            </div>
+          </div>
+        </div>
+      </form>
+  </section>
+
+  <section class="section-reviews">
+    <div class="container">
+      <h2>Отзывы</h2>
+      <article class="review">
+        <p>Первый раз пришлось оставить нашего котика в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца, рассказывала, как он себя чувствует. И мы и котик остались очень довольны!</p>
+        <div class="review-name">Валерия Гришаева</div>
+        <div class="review-date">15 ноября, 2019</div>
+      </article>
+      <article class="review">
+        <p>Гостиницу для питомцев нам посоветовали друзья. Они всегда оставляют здесь своего кота, когда уезжают. В “Котейке” очень хорошо заботятся о питомцах, в гостинице очень чисто. Всем рекомендую! Будем обращаться еще.</p>
+        <div class="review-name">Екатерина Минаева</div>
+        <div class="review-date">10 октября, 2019</div>
+      </article>
+      <article class="review">
+        <p>Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно.</p>
+        <div class="review-name">Павел Нечаев</div>
+        <div class="review-date">2 августа, 2019</div>
+      </article>
+    </div>
+  </section>
+
+  <section class="map">
+    <div class="map-container">
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+
+    </div>
+  </footer>
+</body>
+
+</html>
