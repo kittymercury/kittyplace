@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Котейка</title>
+  <title>Каталог</title>
 </head>
 
 <body>
@@ -28,47 +28,110 @@
       <fieldset>
         <legend>Цена за сутки,<span>₽</span></legend>
         <label for="filters-form-price-from" class="visually-hidden">Цена за сутки, от</label>
-          <input type="text" name="filters-form-price-from" id="filters-form-price-from" placeholder="от 100" value="100">
-          <label for="filters-form-price-to" class="visually-hidden">до</label>
-          <input type="text" name="filters-form-price-to" id="filters-form-price-to" placeholder="до 600" value="600">
+        <input type="text" name="filters-form-price-from" id="filters-form-price-from" placeholder="от 100" value="100">
+        <label for="filters-form-price-to" class="visually-hidden">до</label>
+        <input type="text" name="filters-form-price-to" id="filters-form-price-to" placeholder="до 600" value="600">
       </fieldset>
 
-<fieldset>
-  <legend>Площадь</legend>
-  <label for="filters-form-area-value-1">0,63м<sup>2</sup></label>
-  <input type="checkbox" name="filters-form-area" id="filters-form-area-value-1" value="0.63">
-  <label for="filters-form-area-value-2">0,90 м<sup>2</sup></label>
-  <input type="checkbox" name="filters-form-area" id="filters-form-area-value-2" value="0.90">
-  <label for="filters-form-area-value-3">1,13 м<sup>2</sup></label>
-  <input type="checkbox" name="filters-form-area" id="filters-form-area-value-3" value="1.13">
-  <label for="filters-form-area-value-4">1,56 м<sup>2</sup></label>
-  <input type="checkbox" name="filters-form-area" id="filters-form-area-value-4" value="1.56">
-  <label for="filters-form-area-value-5">2,56 м<sup>2</sup></label>
-  <input type="checkbox" name="filters-form-are" id="filters-form-area-value-5" value="2.56">
-  <label for="filters-form-area-value-6">2,88 м<sup>2</sup></label>
-  <input type="checkbox" name="filters-form-area" id="filters-form-area-value-6" value="2.88">
+      <fieldset>
+        <legend>Площадь</legend>
+        <label for="filters-form-area-value-1">0,63м<sup>2</sup></label>
+        <input type="checkbox" name="filters-form-area" id="filters-form-area-value-1" value="0.63">
+        <label for="filters-form-area-value-2">0,90 м<sup>2</sup></label>
+        <input type="checkbox" name="filters-form-area" id="filters-form-area-value-2" value="0.90">
+        <label for="filters-form-area-value-3">1,13 м<sup>2</sup></label>
+        <input type="checkbox" name="filters-form-area" id="filters-form-area-value-3" value="1.13">
+        <label for="filters-form-area-value-4">1,56 м<sup>2</sup></label>
+        <input type="checkbox" name="filters-form-area" id="filters-form-area-value-4" value="1.56">
+        <label for="filters-form-area-value-5">2,56 м<sup>2</sup></label>
+        <input type="checkbox" name="filters-form-are" id="filters-form-area-value-5" value="2.56">
+        <label for="filters-form-area-value-6">2,88 м<sup>2</sup></label>
+        <input type="checkbox" name="filters-form-area" id="filters-form-area-value-6" value="2.88">
 
-</fieldset>
-<fieldset>
-  <legend>Оснащение номера</legend>
-  <label for="equipment-form-value-empty">Пустой номер</label>
-  <input type="checkbox" name="equipment-form" id="equipment-form-value-empty" value="empty">
-  <label for="equipment-form-value-sofa">Лежак</label>
-  <input type="checkbox" name="equipment-form" id="equipment-form-value-sofa" value="sofa"
-  <label for="equipment-form-value-car-tree">Когтеточка</label>
-  <input type="checkbox" name="equipment-form" id="equipment-form-value-car-tree" value="car-tree">
-  <label for="equipment-form-value-playing">Игровой-комплекс</label>
-  <input type="checkbox" name="equipment-form" id="equipment-form-value-playing" value="playing">
-  <label for="equipment-form-value-house">Домик</label>
-  <input type="checkbox" name="equipment-form" id="equipment-form-value-house" value="house">
-</fieldset>
-<button type="reset">Сбросить фильтр</button>
-        </form>
+      </fieldset>
+      <fieldset>
+        <legend>Оснащение номера</legend>
+        <label for="equipment-form-value-empty">Пустой номер</label>
+        <input type="checkbox" name="equipment-form" id="equipment-form-value-empty" value="empty">
+        <label for="equipment-form-value-sofa">Лежак</label>
+        <input type="checkbox" name="equipment-form" id="equipment-form-value-sofa" value="sofa" <label for="equipment-form-value-cat-tree">Когтеточка</label>
+        <input type="checkbox" name="equipment-form" id="equipment-form-value-cat-tree" value="car-tree">
+        <label for="equipment-form-value-playing">Игровой-комплекс</label>
+        <input type="checkbox" name="equipment-form" id="equipment-form-value-playing" value="playing">
+        <label for="equipment-form-value-house">Домик</label>
+        <input type="checkbox" name="equipment-form" id="equipment-form-value-house" value="house">
+      </fieldset>
+      <button type="reset">Сбросить фильтр</button>
+    </form>
   </section>
 
-  <section class="catalog"></section>
+  <section class="catalog">
+    <a href="#" class="sort-asc">По площади</a>
+    <ul>
+      <li>
+        <img src="img/photo-room-2.jpg">
+        <h3>Эконом</h3>
+        <div class="room-characteristics">Размеры (ШхГхВ) - 90х70х180 см</div>
+        <div class="room-characteristics">Площадь - 0,63 м<sup>2</sup></div>
+        <div class="room-characteristics">Оснащение номера<img src="img/empty.svg"></div>
+        <div class="room-characteristics">Цена за сутки: <span>100₽</span></div>
+        <a href="/" class="button-1">Забронировать<img src="img/paw-small-1.svg"></a>
+      </li>
+      <li>
+        <img src="img/photo-room-3.jpg">
+        <h3>Эконом плюс</h3>
+        <div class="room-characteristics">Размеры (ШхГхВ) - 90х100х180 см</div>
+        <div class="room-characteristics">Площадь - 0,90 м<sup>2</sup></div>
+        <div class="room-characteristics">Оснащение номера<img src="img/sofa.svg"><img src="cat-tree.svg"></div>
+        <div class="room-characteristics">Цена за сутки: <span>200₽</span></div>
+        <a href="/" class="button-1">Забронировать<img src="img/paw-small-1.svg"></a>
+      </li>
+      <li>
+        <img src="img/photo-room-6.jpg">
+        <h3>Комфорт</h3>
+        <div class="room-characteristics">Размеры (ШхГхВ) - 100х125х180 см</div>
+        <div class="room-characteristics">Площадь - 1,13 м<sup>2</sup></div>
+        <div class="room-characteristics">Оснащение номера<img src="img/sofa.svg"><img src="cat-tree.svg"><img src="img/toy.svg"></div>
+        <div class="room-characteristics">Цена за сутки: <span>250₽</span></div>
+        <a href="/" class="button-1">Забронировать<img src="img/paw-small-1.svg"></a>
+      </li>
+      <li>
+        <img src="img/photo-room-4.jpg">
+        <h3>Сьют</h3>
+        <div class="room-characteristics">Размеры (ШхГхВ) - 125х125х180 см</div>
+        <div class="room-characteristics">Площадь - 1,56 м<sup>2</sup></div>
+        <div class="room-characteristics">Оснащение номера<img src="img/sofa.svg"><img src="cat-tree.svg"><img src="img/toy.svg"></div>
+        <div class="room-characteristics">Цена за сутки: <span>350₽</span></div>
+        <a href="/" class="button-1">Забронировать<img src="img/paw-small-1.svg"></a>
+      </li>
+      <li>
+        <img src="img/photo-room-1.jpg">
+        <h3>Люкс</h3>
+        <div class="room-characteristics">Размеры (ШхГхВ) - 160х160х180 см</div>
+        <div class="room-characteristics">Площадь - 2,56 м<sup>2</sup></div>
+        <div class="room-characteristics">Оснащение номера<img src="img/sofa.svg"><img src="cat-tree.svg"><img src="img/toy.svg"><img src="img/house.svg"></div>
+        <div class="room-characteristics">Цена за сутки: <span>500₽</span></div>
+        <a href="/" class="button-1">Забронировать<img src="img/paw-small-1.svg"></a>
+      </li>
+      <li>
+        <img src="img/photo-room-5.jpg">
+        <h3>Супер-Люкс</h3>
+        <div class="room-characteristics">Размеры (ШхГхВ) - 180х160х180 см</div>
+        <div class="room-characteristics">Площадь - 2,88 м<sup>2</sup></div>
+        <div class="room-characteristics">Оснащение номера<img src="img/sofa.svg"><img src="cat-tree.svg"><img src="img/toy.svg"><img src="img/house.svg"></div>
+        <div class="room-characteristics">Цена за сутки: <span>600₽</span></div>
+        <a href="/" class="button-1">Забронировать<img src="img/paw-small-1.svg"></a>
+      </li>
+    </ul>
+  </section>
 
-  <section class="banner"></section>
+  <section class="banner">
+    <img src="img/photo-promo-2.jpg">
+    <div class="banner-text-1">Каждый 7-й день</div>
+    <div class="banner-text-2">бесплатно!</div>
+    <p>Акция дейстует при размещении в номерах “Люкс” и “Супер-Люкс”</p>
+    <a href="/" class="button-2">Забронировать<img src="img/paw-small-2.svg"></a>
+  </section>
 
 
 
