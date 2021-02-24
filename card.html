@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Каталог</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo"><img src="img/logo.svg" alt="Логотип сайта"></a>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="/" class="header-nav-li">Почему мы?</a></li>
+          <li><a href="/" class="header-nav-li">Номера</a></li>
+          <li><a href="/" class="header-nav-li">Отзывы</a></li>
+          <li><a href="/" class="header-nav-li">Как нас найти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="card">
+    <h2>Супер-Люкс</h2>
+    <img src="img/photo-full.jpg">
+    <ul class="card-photo-preview">
+      <li class="card-photo-preview-item"><img src="img/photo-1.jpg"></li>
+      <li class="card-photo-preview-item"><img src="img/photo-2.jpg"></li>
+      <li class="card-photo-preview-item"><img src="img/photo-3.jpg"></li>
+    </ul>
+    <div class="card-room">
+      <div class="card-room-characteristics">Размеры (ШхГхВ) - 180х160х180 см</div>
+      <div class="card-room-characteristics">Площадь - 2,88 м<sup>2</sup></div>
+      <div>
+        <div class="card-room-characteristics">Оснащение номера</div>
+        <div class="card-room-characteristics"><img src="img/sofa.svg">Лежак</div>
+        <div class="card-room-characteristics"><img src="img/house.svg">Домик</div>
+        <div class="card-room-characteristics"><img src="img/toy.svg">Игровой комплекс - 3 яруса</div>
+        <div class="card-room-characteristics"><img src="img/cat-tree.svg">Когтеточка</div>
+      </div>
+      <div class="card-room-characteristics">Цена за сутки: <span>600₽</span></div>
+    </div>
+    <a href="/" class="button-1">Забронировать<img src="img/paw-small-1.svg"></a>
+  </section>
+
+  <section class="room-reservation">
+    <img src="img/fish.svg">
+    <h2>Другие номера</h2>
+    <img src="img/photo-order-1.jpg">
+    <h4>Комфорт</h4>
+    <div class="comfort-room">
+      <div class="comfort-room-characteristics">Площадь - 1,13 м<sup>2</sup></div>
+      <div class="comfort-room-characteristics">Размеры (ШхГхВ) - 100х125х180 см</div>
+      <div class="comfort-room-characteristics">Цена за сутки: <span>250₽</span></div>
+    </div>
+    <h3>Забронировать номер</h3>
+    <form id="reservation-form" action="#" method="post">
+      <label for="reservation-form-name" class="visually-hidden">Ваше имя</label>
+      <input id="reservation-form-name" type="text" name="reservation-form-name" placeholder="Ваше имя">
+      <label for="reservation-form-pet-name" class="visually-hidden">Имя питомца</label>
+      <input id="reservation-form-pet-name" type="text" name="reservation-form-pet-name" placeholder="Имя питомца">
+      <label for="reservation-form-telephone" class="visually-hidden">Телефон</label>
+      <input id="reservation-form-telephone" type="tel" name="reservation-form-telephone" placeholder="Телефон">
+      <label for="reservation-form-telephone" class="visually-hidden">E-mail</label>
+      <input id="reservation-form-email" type="email" name="reservation-form-email" placeholder="E-mail">
+      <div class="dates">
+        <div class="date-element">
+          <label>Дата заезда с</label>
+          <input type="date">
+        </div>
+        <div class="date-element">
+          <label>по</label>
+          <input type="date">
+          <button type="submit">Отправить заявку</button>
+    </form>
+
+
+
+
+  </section>
+
+  <footer>
+    <div class="map-container">
+      <h2>Как нас найти</h2>
+      <dl class="contacts-list">
+        <dt>Адрес</dt>
+        <dd>Санкт-Петербург, ул Большая Конюшенная, д 19</dd>
+        <dt>Режим работы</dt>
+        <dd>Ежедневно, с 9:00 до 20:00</dd>
+        <dt>Телефон</dt>
+        <dd><a href="tel:8 (800) 333-55-99">8 (800) 333-55-99</a></dd>
+        <dt>E-mail</dt>
+        <dd><a href="mailto:info@cat-hotel.ru">info@cat-hotel.ru</a></dd>
+      </dl>
+      <h5>Социальные сети</h5>
+      <ul class="social-list">
+        <li><a href="/"><img src="img/facebook.svg"></a></li>
+        <li><a href="/"><img src="img/instagram.svg"></a></li>
+        <li><a href="/"><img src="img/vk.svg"></a></li>
+      </ul>
+      <img src="img/map.jpg" class="map-img">
+    </div>
+    <div class="container">
+      <a href="/" class="logo"><img src="img/logo.svg" alt="Логотип сайта"></a>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="/" class="header-nav-li">Почему мы?</a></li>
+          <li><a href="/" class="header-nav-li">Номера</a></li>
+          <li><a href="/" class="header-nav-li">Отзывы</a></li>
+          <li><a href="/" class="header-nav-li">Как нас найти</a></li>
+        </ul>
+      </nav>
+      <div class="under-nav">© 2019 Все права защищены</div>
+      <div class="under-nav">Политика конфиденциальности</div>
+    </div>
+  </footer>
+</body>
+
+</html>
